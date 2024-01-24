@@ -178,6 +178,6 @@ app.get('/', authenticateJwt, async (req,res) =>{
 })
 
 app.listen(port, () => {
-    console.log("listening to port " + port);
+    console.log("listening to port : " + port);
 })
 
